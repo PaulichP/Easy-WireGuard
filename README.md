@@ -36,10 +36,12 @@ Easy WireGuard offers two web panels to choose from:
 ### wg-easy
 
 This is a lightweight and easy-to-use web panel that provides basic WireGuard configuration options.
+https://github.com/WeeJeWel/wg-easy
 
 ### wg-access-server
 
 This is a more advanced web panel that offers additional features such as multi-user support and traffic monitoring.
+https://github.com/freifunkMUC/wg-access-server
 
 ## Support
 
