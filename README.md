@@ -1,7 +1,7 @@
 
 # Easy WireGuard
 
-Easy WireGuard is a Bash script that helps you set up a WireGuard VPN with your preferred web panel. This script offers two web panels to choose from, wg-easy and wg-access-server.
+Easy WireGuard is a Bash script that helps you set up a WireGuard VPN with your preferred web panel. This script offers two web panels to choose from wg-easy and wg-access-server.
 
 ## Requirements
 
