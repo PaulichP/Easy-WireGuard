@@ -15,7 +15,7 @@ Easy WireGuard is a Bash script that helps you set up a WireGuard VPN with your 
 
 3. Make the script executable by running the command:
 ```bash
-chmod +x easy-wireguard.sh
+chmod +x EasyWireGuard.sh
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ chmod +x easy-wireguard.sh
 
 2. Run the script with the following command:
 ```bash
-./easy-wireguard.sh
+./EasyWireGuard.sh
 ```
 
 3. Follow the on-screen instructions to complete the installation and setup process.
