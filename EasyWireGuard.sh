@@ -91,7 +91,7 @@ do
             echo "                                                          "
 	    echo "  Your admin password is:                                 "
             echo "  $admpass                                                "
-	    eсho "                                                          "
+	    echo "                                                          "
 	    echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
             break
             ;;
