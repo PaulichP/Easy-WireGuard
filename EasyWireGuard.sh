@@ -5,19 +5,16 @@ echo "@               Welcome to Easy WireGuard!               @"
 echo "@                         v1.0.0                         @"
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 echo " "
-read -r -p "Do you have Docker installed? [y/N] " response
-case "$response" in
-    [yY][eE][sS]|[yY])
-        echo "Nice, let's start!"
-        ;;
-    *)
-        echo "No problem, we can do the installation for you."
-        sleep 2
-        curl -fsSL https://get.docker.com -o get-docker.sh
-        sh get-docker.sh
-        rm get-docker.sh
-        echo "Now we can start!"
-esac
+if ! command -v docker &> /dev/null
+then
+    echo "Docker is not installed. Installing Docker..."
+    echo " "
+    curl -fsSL https://get.docker.com -o get-docker.sh
+    sh get-docker.sh
+    rm get-docker.sh
+    echo " "
+    echo "Docker has been installed."
+fi
 echo " "
 echo "Please, eneter your host IP adress:"
 read hostip
