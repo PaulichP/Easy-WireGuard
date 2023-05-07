@@ -11,9 +11,9 @@ Easy WireGuard is a bash script that helps you set up a WireGuard VPN with your 
 
 1. Clone the repository to your local machine using the following command:
 
-   ```bash
-   git clone https://github.com/PaulichP/Easy-WireGuard.git
-   ```
+```bash
+git clone https://github.com/PaulichP/Easy-WireGuard.git
+```
 
 2. Navigate to the directory where the script is located.
 
