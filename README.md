@@ -7,22 +7,16 @@ Easy WireGuard is a bash script that helps you set up a WireGuard VPN with your 
 
 - Docker
 
-## Installation
+## Quick Installation
 
-1. Clone the repository to your local machine using the following command:
+You can install and run Easy WireGuard in one step:
 
 ```bash
-git clone https://github.com/PaulichP/Easy-WireGuard.git
-```
-
-2. Navigate to the directory where the script is located.
-
-3. Make the script executable by running the command:
-```bash
-chmod +x EasyWireGuard.sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/PaulichP/Easy-WireGuard/master/EasyWireGuard.sh)"
 ```
 
 ## Usage
+To run Easy WireGuard after installing:
 
 1. Navigate to the directory where the script is located.
 
