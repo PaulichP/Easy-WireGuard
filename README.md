@@ -16,16 +16,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/PaulichP/Easy-WireGuard/
 ```
 
 ## Usage
-To run Easy WireGuard after installing:
 
-1. Navigate to the directory where the script is located.
-
-2. Run the script with the following command:
-```bash
-./EasyWireGuard.sh
-```
-
-3. Follow the on-screen instructions to complete the installation and setup process.
+Just follow the on-screen instructions to complete the installation and setup process.
 
 ## Web Panels
 
